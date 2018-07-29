@@ -8,6 +8,9 @@ BRANDS = []
     @brand = brand
       BRANDS << brand unless
       BRANDS.include?(brand)
+      # Using IF which is the opposite of unless
+      #BRANDS << brand if
+      #BRANDS.include?(brand)
   end
 
   def cobble
